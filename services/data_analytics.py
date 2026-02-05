@@ -50,9 +50,9 @@ def mostrar_medias():
     medias = media()
 
     st.markdown(f'Média Geral Psicológico: {round(medias["Psicológico"],2)}')
-    st.markdown(f'Média Geral Psicológico: {round(medias["Técnico"],2)}')
-    st.markdown(f'Média Geral Psicológico: {round(medias["Tático"],2)}')
-    st.markdown(f'Média Geral Psicológico: {round(medias["Físico"],2)}')
+    st.markdown(f'Média Geral Técnico: {round(medias["Técnico"],2)}')
+    st.markdown(f'Média Geral Tático: {round(medias["Tático"],2)}')
+    st.markdown(f'Média Geral Físico: {round(medias["Físico"],2)}')
 
 #===================================================
 #          Análise e Média Individual
